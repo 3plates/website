@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <title>Product Pre-Launch Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+    .company-logo {
+      max-width: 100px;
+      margin: 10px auto;
+    }
+    .product-logo {
+      max-width: 300px;
+      margin: 20px auto;
+    }
+    .blurb {
+      margin-bottom: 20px;
+    }
+    .email-form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .email-input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    .submit-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="index.js" async defer></script>
+</head>
+<body>
+  <div class="container"></div>
+    <img src="3plate-color.png" alt="3Plate Logo" class="company-logo">
+    <h1>Diffract</h1>
+    <img src="diffract-color.png" alt="Diffract Logo" class="product-logo">
+    <div class="blurb"></div>
+      <p>
+        Blurb 1: Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit.
+      </p>
+    </div>
+    <div class="blurb"></div>
+      <p>
+        Blurb 2: Sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.
+      </p>
+    </div>
+    <div class="blurb">
+      <p>
+        Blurb 3: Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex
+        ea commodo consequat.
+      </p>
+    </div>
+    <div class="email-form"></div>
+      <form action="?" method="POST">
+        <input type="email" class="email-input" name="email" placeholder="Enter your email" required>
+        <button class="submit-button g-recaptcha" data-sitekey="6LcgPdspAAAAACzBgGjSSve-CUiA3ZbDFqn5NQiH" data-callback="subscribe">Sign Up</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
